@@ -11,10 +11,22 @@ body{
 
 }
 
+.bookImage{
+  vertical-align: middle;
+  float:left;
+  width: 80px;
+  height: 100px;
+  border-radius: 5%;
+}
+
 .title h1 {
   font-weight:lighter;
   font-size: 70px;
 
+}
+
+li{
+  list-style-type: none;
 }
 
 .column-left,
@@ -29,6 +41,13 @@ body{
 .column-left{
   font-family: 'Share Tech Mono', monospace;
   background-color:rgba(255, 235, 205, 0.514);
+
+  line-height: 1.5;
+}
+
+.column-left li{
+  text-align:left;
+
 }
 
 .column-right{
