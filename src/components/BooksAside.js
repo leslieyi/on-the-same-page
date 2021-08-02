@@ -1,6 +1,12 @@
-function BooksAside() {
+function BooksAside({userData}) {
+
+
+    
     return (
-        <h1>Hello form BookAside YIIIIII, List of booksinfo, User's books, toggle button for show public/private</h1>
+        <div className="column-left">
+            hello
+                <li>{userData.name}</li>
+        </div>
     )
 }
 

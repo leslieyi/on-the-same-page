@@ -1,6 +1,10 @@
 function SearchBar() {
     return (
-        <h1>search</h1>
+        <div className="searchBar">
+
+            <h1>search</h1>
+
+        </div>
     )
 }
 
