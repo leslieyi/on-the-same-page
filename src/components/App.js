@@ -15,7 +15,9 @@ function App() {
       });
   }, []);
 
-  const [userData, setUserData] = useState({});
+  const [userData, setUserData] = useState({
+    booksInfo: []
+  });
   useEffect(() => {
     fetch("http://localhost:3001/user")
       .then((response) => response.json())
