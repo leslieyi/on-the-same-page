@@ -8,11 +8,9 @@ function BooksAside({userData}) {
             <ul>
                 <li>{userData.name}</li>
                 <li>{userData.favoriteGenre}</li>
-                HIIIIIII from asdfasdf asdf asdf
             </ul>
         </div>
     )
 }
 
 export default BooksAside
-//hello

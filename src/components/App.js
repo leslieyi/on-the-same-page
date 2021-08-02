@@ -32,9 +32,7 @@ function App() {
         setClubsData(Data);
       });
   }, []);
-  //added clubsData//added again
 
-  //testing Yearim Testing///////
 
   return (
       <div className="app">
