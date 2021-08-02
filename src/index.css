@@ -33,8 +33,7 @@ li{
 
 .column-left{
   font-family: 'Share Tech Mono', monospace;
-  background-color:rgba(255, 235, 205, 0.514);
-  line-height: 1.5;
+  background-color:rgba(255, 235, 205, 0.514)
 }
 
 .bookImage{
@@ -48,15 +47,17 @@ li{
 
 .books-aside-lists-front{
   text-align: left;
+  line-height: 1.5;
 }
 
 .books-aside-lists-back{
   text-align: justify;
+  line-height: 1.5;
+
 }
 
 .column-right{
   background-color:rgba(255, 235, 205, 0.514);
-
 }
 
 .header {
