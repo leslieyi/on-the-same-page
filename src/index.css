@@ -28,6 +28,11 @@ body{
 
 .column-left{
   font-family: 'Share Tech Mono', monospace;
+  background-color:rgba(255, 235, 205, 0.514);
+}
+
+.column-right{
+  background-color:rgba(255, 235, 205, 0.514);
 
 }
 
