@@ -1,9 +1,26 @@
+import {useState, useEffect} from 'react';
+
 function BooksAside() {
+
+    const [userData, setUserData] = useState([]);
+
+    useEffect(() => {
+      fetch("http://localhost:3001/user")
+        .then((response) => response.json())
+        .then((Data) => {
+          setUserData(Data);
+        });
+    }, []);
+  
+  
     return (
         <div className="column-left">
+                <p>{userData.name}</p>
+            
+        
 
-            <h1>Hello form BookAside YIIIIII, List of booksinfo, User's books, toggle button for show public</h1>
-
+           
+        
 
         </div>
     )

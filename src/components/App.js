@@ -30,7 +30,7 @@ function App() {
     </div>
       )} */}
       <Header />
-      <BooksAside profileData={profileData}/>
+      <BooksAside />
       <MainContainer />
       <BookClubAside />
    
