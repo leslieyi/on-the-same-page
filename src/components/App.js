@@ -25,6 +25,15 @@ function App() {
       });
   }, []);
 
+  const [clubsData, setClubsData] = useState([])
+  useEffect(() => {
+    fetch("http://localhost:3001/bookClubs")
+      .then((response) => response.json())
+      .then((Data) => {
+        setClubsData(Data);
+      });
+  }, []);
+
 
 
 
@@ -40,7 +49,7 @@ function App() {
       <Header />
       <BooksAside userData={userData}/>
       <MainContainer />
-      <BookClubAside />
+      <BookClubAside clubsData={clubsData}/>
    
 
 
