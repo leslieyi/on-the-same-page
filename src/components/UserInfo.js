@@ -13,7 +13,7 @@ function UserInfo({userData}){
               <li>My Favorite Genre: {userData.favoriteGenre}</li>
               <li>My Location: {userData.area}</li>
               {userData.booksInfo.map((book) => (
-                <div>
+                <div className="front-back-lists">
                   <br />
                   <img
                     className="bookImage"

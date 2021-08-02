@@ -41,6 +41,10 @@ li{
   text-align: center;
 }
 
+.front-back-lists{
+  height: 150px;
+}
+
 .bookImage{
   vertical-align: middle;
   margin-right: 10px;
@@ -58,7 +62,6 @@ li{
 .books-aside-lists-back{
   text-align: justify;
   line-height: 1.5;
-
 }
 
 .column-right{
