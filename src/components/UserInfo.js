@@ -11,6 +11,7 @@ function UserInfo({userData}){
             <h3>{userData.name}'s Profile</h3>
             <ul>
               <li>My Favorite Genre: {userData.favoriteGenre}</li>
+              <li>My Location: {userData.area}</li>
               {userData.booksInfo.map((book) => (
                 <div>
                   <br />
