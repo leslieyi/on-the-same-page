@@ -1,0 +1,46 @@
+{
+    "profile":[
+      {
+        "id": 1,
+        "name": "Alec Magnet",
+        "public": true,
+        "favoriteGenre": "fiction",
+        "booksInfo": [{ "title": "The Google story","authors":
+            "David A. Vise", "publisher": "Random House Digital, Inc.","image":"url"}],
+        "area": "NYC"
+      },
+      {
+        "id": 2,
+        "name": "Mari Taksa",
+        "public": true,
+        "favoriteGenre": "fiction",
+        "booksInfo": [{ "title": "The Google story","authors":
+            "David A. Vise", "publisher": "Random House Digital, Inc.","image":"url"}],
+        "area": "NYC"
+      },
+      {
+        "id": 3,
+        "name": "Yearim Yi",
+        "public": true,
+        "favoriteGenre": "fiction",
+        "booksInfo": [{ "title": "The Google story","authors":
+            "David A. Vise", "publisher": "Random House Digital, Inc.","image":"url"}],
+        "area": "NYC"
+      },
+      {
+        "id": 4,
+        "name": "Jason Jaycesun",
+        "public": true,
+        "favoriteGenre": "fiction",
+        "booksInfo": [{ "title": "The Google story","authors":
+            "David A. Vise", "publisher": "Random House Digital, Inc.","image":"url"}],
+        "area": "Tallanasty"
+      }
+      
+    ],
+
+    "club": [
+      { "name":"herrooo"
+
+    }]
+  }
