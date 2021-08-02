@@ -55,6 +55,11 @@ li{
   border-radius: 5%;
 }
 
+.bookImage:hover {
+  transition: .5s;
+  box-shadow: rgb(0, 0, 0) 10px 10px 30px -10px;
+}
+
 .books-aside-lists-front{
   text-align: left;
   line-height: 1.5;
