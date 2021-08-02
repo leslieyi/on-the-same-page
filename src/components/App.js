@@ -8,7 +8,6 @@ import BookClubAside from "./BookClubAside"
 
 function App() {
   const [profileData, setProfileData] = useState([]);
-
   useEffect(() => {
     fetch("http://localhost:3001/profile")
       .then((response) => response.json())
@@ -17,20 +16,29 @@ function App() {
       });
   }, []);
 
+  const [userData, setUserData] = useState({});
+  useEffect(() => {
+    fetch("http://localhost:3001/user")
+      .then((response) => response.json())
+      .then((Data) => {
+        setUserData(Data);
+      });
+  }, []);
+
+
+
 
 //testing
   return (
     <div className="app">
     <h1>On the Same Page</h1>
-    {/* {profileData.map(profile=>
-    <div>
-      <h2>{profile.name}</h2>
-      {profile.booksInfo.map(book=>
-        <li>{book.title}</li>)}
-    </div>
-      )} */}
+    <p>
+
+    {userData.name}
+
+    </p>
       <Header />
-      <BooksAside />
+      <BooksAside userData={userData}/>
       <MainContainer />
       <BookClubAside />
    
