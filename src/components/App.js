@@ -37,20 +37,16 @@ function App() {
   //testing Yearim Testing///////
 
   return (
-    <div className="app">
-      <div className="title">
-        <h1>On the Same Page</h1>
-      </div>
+      <div className="app">
+        <div className="title">
+          <h1>On the Same Page</h1>
+        </div>
 
-      <div className="background">
-        <div className="blur"></div>
+        <Header />
+        <BooksAside userData={userData} />
+        <MainContainer />
+        <BookClubAside clubsData={clubsData} />
       </div>
-
-      <Header />
-      <BooksAside userData={userData} />
-      <MainContainer />
-      <BookClubAside clubsData={clubsData} />
-    </div>
   );
 }
 
