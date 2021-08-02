@@ -1,6 +1,11 @@
 function BooksAside() {
     return (
-        <h1>Hello form BookAside YIIIIII, List of booksinfo, User's books, toggle button for show public/private</h1>
+        <div className="column-left">
+
+            <h1>Hello form BookAside YIIIIII, List of booksinfo, User's books, toggle button for show public</h1>
+
+
+        </div>
     )
 }
 

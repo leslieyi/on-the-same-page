@@ -1,6 +1,9 @@
 function Container () {
     return (
-        <h1>Hello from container!</h1>
+        <div className="column-center">
+            <h1>Hello from container!</h1>
+
+        </div>
 
     )
 

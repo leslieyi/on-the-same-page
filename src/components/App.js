@@ -1,4 +1,4 @@
-import '../App.css';
+// import '../App.css';
 import {useEffect, useState} from 'react'
 import MainContainer from "./MainContainer"
 import Header from "./Header"
@@ -20,18 +20,18 @@ function App() {
 
 //testing
   return (
-    <div className="App">
-    <h1>HELLO</h1>
-    {profileData.map(profile=>
+    <div className="app">
+    <h1>On the Same Page</h1>
+    {/* {profileData.map(profile=>
     <div>
       <h2>{profile.name}</h2>
       {profile.booksInfo.map(book=>
         <li>{book.title}</li>)}
     </div>
-      )}
-      <MainContainer />
+      )} */}
       <Header />
       <BooksAside profileData={profileData}/>
+      <MainContainer />
       <BookClubAside />
    
 

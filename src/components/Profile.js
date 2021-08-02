@@ -1,6 +1,10 @@
 function Profile() {
     return (
-        <h1>profile</h1>
+        <div className="profile">
+            <h1>profile</h1>
+
+
+        </div>
     )
 }
 
