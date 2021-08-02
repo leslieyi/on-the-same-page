@@ -1,10 +1,9 @@
 // import '../App.css';
-import {useEffect, useState} from 'react'
-import MainContainer from "./MainContainer"
-import Header from "./Header"
-import BooksAside from "./BooksAside"
-import BookClubAside from "./BookClubAside"
-
+import { useEffect, useState } from "react";
+import MainContainer from "./MainContainer";
+import Header from "./Header";
+import BooksAside from "./BooksAside";
+import BookClubAside from "./BookClubAside";
 
 function App() {
   const [profileData, setProfileData] = useState([]);
@@ -25,7 +24,7 @@ function App() {
       });
   }, []);
 
-  const [clubsData, setClubsData] = useState([])
+  const [clubsData, setClubsData] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3001/bookClubs")
       .then((response) => response.json())
@@ -33,24 +32,24 @@ function App() {
         setClubsData(Data);
       });
   }, []);
-//added clubsData//added again
+  //added clubsData//added again
+
+  //testing Yearim Testing///////
 
   return (
     <div className="app">
-    <h1>On the Same Page</h1>
-    <p>
+      <div className="title">
+        <h1>On the Same Page</h1>
+      </div>
 
-    {userData.name}
+      <div className="background">
+        <div className="blur"></div>
+      </div>
 
-    </p>
       <Header />
-      <BooksAside userData={userData}/>
+      <BooksAside userData={userData} />
       <MainContainer />
-      <BookClubAside clubsData={clubsData}/>
-   
-
-
-
+      <BookClubAside clubsData={clubsData} />
     </div>
   );
 }
