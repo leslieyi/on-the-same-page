@@ -33,11 +33,8 @@ function App() {
         setClubsData(Data);
       });
   }, []);
+//added clubsData//added again
 
-
-
-
-//testing
   return (
     <div className="app">
     <h1>On the Same Page</h1>
