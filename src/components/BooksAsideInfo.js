@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 function BooksAsideInfo({
-  userData,
-  book: { title, image, authors, publisher, review, starReview },
+  book: { title, image, authors, publisher, review, starReview, id },
 }) {
   const [clicked, setClicked] = useState(false);
   const [starNum, setStarNum] = useState(starReview);
@@ -24,7 +23,7 @@ function BooksAsideInfo({
       <div className="front-back-lists">
         <br />
         <img
-          key={Math.random()}
+          key={id}
           className="bookImage"
           alt={title}
           src={image}
@@ -33,18 +32,18 @@ function BooksAsideInfo({
         {clicked ? (
           <div className="books-aside-lists-back">
             <li onClick={handleStars}>
-              Star Raiting: <br/>
+              <span className="span-titles">Star Raiting: </span><br/>
               {[...Array(starNum)].map(() => <img alt="stars" key={Math.random()} className="star-image" src="https://img.icons8.com/doodle/48/000000/star--v1.png"/>)}
               {[...Array(5-starNum)].map(() => <img alt="stars" key={Math.random()} className="star-image" src="https://img.icons8.com/color/48/000000/star--v1.png"/>)}
             </li>
-            <li>"{review}"-{userData.name}</li>
-            <br />
+            <li>"{review}"-JJ</li>
+        
           </div>
         ) : (
           <div className="books-aside-lists-front">
-            <li>Title: {title}</li>
-            <li>Authors: {authors}</li>
-            <li>Publisher: {publisher}</li>
+            <li><span className="span-titles">Title:</span> {title}</li>
+            <li><span className="span-titles">Author:</span> {authors}</li>
+            <li><span className="span-titles">Publisher:</span> {publisher}</li>
             <br />
           </div>
         )}
