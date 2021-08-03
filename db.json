@@ -60,7 +60,10 @@
     {
       "id": 4,
       "name": "Jason Jaycesunderson",
-      "public": true,
+      "location":{
+        "zipcode": "10038",
+        "public":true
+      },
       "favoriteGenre": "historical fiction",
       "booksInfo": [
         {

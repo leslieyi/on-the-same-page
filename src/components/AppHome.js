@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import MainContainer from "./MainContainer";
-import Header from "./Header";
 import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
 
@@ -33,7 +32,7 @@ function AppHome({profileData}){
             <h1>On the Same Page</h1>
           </div>
     
-          {/* <Header /> */}
+  
           <BooksAside userData={userData} />
           {profileData.length === 0 ? null : <MainContainer profileData={profileData}/>}
           <BookClubAside clubsData={clubsData} />

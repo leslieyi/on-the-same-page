@@ -104,6 +104,18 @@ li{
   justify-content: space-evenly;
 }
 
+.profile {
+  font-weight: lighter;
+  font-family: 'Barlow', sans-serif;
+}
+.profile h3 {
+  text-transform: uppercase;
+}
+
+.profile img {
+  height: 40px;
+  width: 40px;
+}
 .profile-info-card{
   outline-style: solid;
   /* display: flex; */
@@ -117,14 +129,3 @@ li{
   font-size: 25px;
 
 }
-/* .profile {
-  outline-style: double;
- 
-  
-} */
-
-/* .searchBar {
-  outline-style: double;
-
-
-} */
