@@ -34,7 +34,7 @@ li{
 
 .column-left{
   font-family: 'Barlow', sans-serif;
-  background-color:rgba(255, 235, 205, 0.664);
+  background-color:rgba(255, 242, 223, 0.856);
   text-align: left;
 }
 
@@ -104,14 +104,27 @@ li{
   justify-content: space-evenly;
 }
 
-.profile {
+.profile-info-card{
+  outline-style: solid;
+  /* display: flex; */
+  flex-wrap: wrap;
+  text-align: center;
+
+
+}
+
+.nav-link{
+  font-size: 25px;
+
+}
+/* .profile {
   outline-style: double;
  
   
-}
+} */
 
-.searchBar {
+/* .searchBar {
   outline-style: double;
-  /* justify-content: space-evenly; */
 
-}
+
+} */
