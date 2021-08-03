@@ -1,4 +1,5 @@
-function Profile() {
+function Profiles({profileData}) {
+    
     return (
         <div className="profile">
             <h1>profile</h1>
@@ -8,4 +9,4 @@ function Profile() {
     )
 }
 
-export default Profile;
+export default Profiles;
