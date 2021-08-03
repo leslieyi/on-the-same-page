@@ -15,8 +15,20 @@ function BooksAsideInfo({
       setStarNum(starNum + 1)
     } else if (starNum === 5) {
       setStarNum(0)
+
     }
-  }
+    
+    // fetch("http://localhost:3001/user", {
+    // method: 'PATCH', 
+    // headers: {'Content-type': 'application/json'},
+    // body: JSON.stringify({
+    // starReview: starNum
+    // }),
+    
+    // })
+    // .then(r => r.json())
+    // .then(data => console.log(data))
+  }//add a fetch request method Patch!
 
   return (
     <div>
