@@ -11,13 +11,15 @@ function BookClub({ club }) {
 	const commentsRender = comments.map((comment) => <CommentCard comment={comment} />)
 
 	return(
-		<div style={{backgroundColor: "lavender"}}>
-			<h2>{name}</h2>
-			<p><b>Location:</b> {location}</p>
-			<p><b>Members:</b> {membersRender}</p>
-			<div>
-				<h3>Comments</h3>
-				{commentsRender}
+		<div style={{padding: "5px"}}>
+			<div style={{backgroundColor: "tan", border: "1px solid black", padding: "5px"}}>
+				<h2>{name}</h2>
+				<p><b>Location:</b> {location}</p>
+				<p><b>Members:</b> {membersRender}</p>
+				<div>
+					<h3>Comments</h3>
+					{commentsRender}
+				</div>
 			</div>
 		</div>
 	)
