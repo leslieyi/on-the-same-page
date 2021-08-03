@@ -10,7 +10,7 @@ function BooksAside({ userData }) {
       </ul>
 
       {userData.booksInfo.map(book=> 
-        <BooksAsideInfo book={book} userData={userData}/>)}
+        <BooksAsideInfo key={Math.random()} book={book} userData={userData}/>)}
 
     </div>
   )}

@@ -14,7 +14,7 @@ function BooksAsideInfo({
   function handleStars() {
     if (starNum < 5) {
       setStarNum(starNum + 1)
-    } else if (starNum == 5) {
+    } else if (starNum === 5) {
       setStarNum(0)
     }
   }
@@ -24,6 +24,7 @@ function BooksAsideInfo({
       <div className="front-back-lists">
         <br />
         <img
+          key={Math.random()}
           className="bookImage"
           alt={title}
           src={image}
@@ -33,8 +34,8 @@ function BooksAsideInfo({
           <div className="books-aside-lists-back">
             <li onClick={handleStars}>
               Star Raiting: <br/>
-              {[...Array(starNum)].map(() => <img className="star-image" src="https://img.icons8.com/doodle/48/000000/star--v1.png"/>)}
-              {[...Array(5-starNum)].map(() => <img className="star-image" src="https://img.icons8.com/color/48/000000/star--v1.png"/>)}
+              {[...Array(starNum)].map(() => <img alt="stars" key={Math.random()} className="star-image" src="https://img.icons8.com/doodle/48/000000/star--v1.png"/>)}
+              {[...Array(5-starNum)].map(() => <img alt="stars" key={Math.random()} className="star-image" src="https://img.icons8.com/color/48/000000/star--v1.png"/>)}
             </li>
             <li>"{review}"-{userData.name}</li>
             <br />
