@@ -42,7 +42,51 @@
       },
     
     "bookClubs": [
-      { "name":"herrooo"
-
-    }]
+      { "name":"Tequila Mockingbird",
+        "id" : 1,
+        "location" : "10025",
+        "members": ["Jason Jaycesunderson", "Yearim Yi", "Alec Magnet"],
+        "comments": [
+          {
+            "poster": "Yearim Yi",
+            "time": "2015-03-25T12:00:00Z",
+            "text": "Pouring one out for Tom"
+          },
+          {
+            "poster": "Jason Jaycesunderson",
+            "time": "2015-03-27T12:00:00Z",
+            "text": "Atticus is bae"
+          }
+        ]
+      },
+      { "name":"Textual Relations",
+        "id" : 2,
+        "location" : "online",
+        "members": ["Mari Taksa", "Yearim Yi", "Jason Jaycesunderson", "Alec Magnet"],
+        "comments": [
+          {
+            "poster": "Mari Taksa",
+            "time": "2016-03-22T12:00:00Z",
+            "text": "Anyone up for some paranormal romance?"
+          },
+          {
+            "poster": "Alec Magnet",
+            "time": "2016-03-23T12:00:00Z",
+            "text": "How bout Anne Rice's Sleeping Beauty books?"
+          }
+        ]
+      },
+      { "name":"Books, the Universe, and Everything",
+        "id" : 3,
+        "location" : "10025",
+        "members": ["Jason Jaycesunderson", "Yearim Yi", "Alec Magnet"],
+        "comments": [
+          {
+            "poster": "Jason Jaycesunderson",
+            "time": "2016-03-22T12:00:00Z",
+            "text": "42"
+          }
+        ]
+      }
+    ]
   }
