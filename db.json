@@ -3,14 +3,18 @@
     {
       "id": 1,
       "name": "Alec Magnet",
-      "public": true,
+      "location":{
+        "zipcode": "11201",
+        "public":true
+      },
       "favoriteGenre": "fiction",
       "booksInfo": [
         {
           "title": "The Google story",
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
-          "image": "url"
+          "image": "url",
+          "dateAdded":"08-02-2021"
         }
       ],
       "area": "NYC"
@@ -18,29 +22,37 @@
     {
       "id": 2,
       "name": "Mari Taksa",
-      "public": true,
+      "location":{
+        "zipcode": "77007",
+        "public":false
+      },
       "favoriteGenre": "fiction",
       "booksInfo": [
         {
           "title": "The Google story",
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
-          "image": "url"
+          "image": "url",
+          "dateAdded":"07-02-2021"
         }
       ],
-      "area": "NYC"
+      "area": "Houston"
     },
     {
       "id": 3,
       "name": "Yearim Yi",
-      "public": true,
+      "location":{
+        "zipcode": "10004",
+        "public":true
+      },
       "favoriteGenre": "fiction",
       "booksInfo": [
         {
           "title": "The Google story",
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
-          "image": "url"
+          "image": "url",
+          "dateAdded":"03-02-2020"
         }
       ],
       "area": "NYC"
@@ -107,13 +119,35 @@
         }
       ],
       "area": "Tallanasty"
+    },
+    {
+      "id": 5,
+      "name": "Adam LaRosa",
+      "location":{
+        "zipcode": "32301",
+        "public":true
+      },
+      "favoriteGenre": "fiction",
+      "booksInfo": [
+        {
+          "title": "The Google story",
+          "authors": "David A. Vise",
+          "publisher": "Random House Digital, Inc.",
+          "image": "url",
+          "dateAdded":"07-02-2021"
+        }
+      ],
+      "area": "Tallanasty"
     }
   ],
   
   "user": {
   
     "name": "Jason Jaycesunderson",
-    "public": true,
+    "location":{
+      "zipcode": "32301",
+      "public":true
+    },
     "favoriteGenre": "historical fiction",
     "booksInfo": [
       {
