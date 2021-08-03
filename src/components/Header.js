@@ -1,10 +1,8 @@
 import SearchBar from "./SearchBar"
-import Profiles from "./Profile";
-function Header({profileData}) {
+function Header() {
     return (
         <div className="header">
         <SearchBar />
-        <Profiles profileData={profileData}/>
         </div>
     )
 }
