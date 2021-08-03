@@ -5,9 +5,18 @@ function BooksAsideInfo({
   book: { title, image, authors, publisher, review, starReview },
 }) {
   const [clicked, setClicked] = useState(false);
+  const [starNum, setStarNum] = useState(starReview);
 
   function handleClick() {
     setClicked(!clicked);
+  }
+
+  function handleStars() {
+    if (starNum < 5) {
+      setStarNum(starNum + 1)
+    } else if (starNum == 5) {
+      setStarNum(0)
+    }
   }
 
   return (
@@ -22,10 +31,12 @@ function BooksAsideInfo({
         />
         {clicked ? (
           <div className="books-aside-lists-back">
-            <p>Star Raiting: {starReview}</p>
-            <li>
-              "{review}"-{userData.name}
+            <li onClick={handleStars}>
+              Star Raiting: <br/>
+              {[...Array(starNum)].map(() => <img className="star-image" src="https://img.icons8.com/doodle/48/000000/star--v1.png"/>)}
+              {[...Array(5-starNum)].map(() => <img className="star-image" src="https://img.icons8.com/color/48/000000/star--v1.png"/>)}
             </li>
+            <li>"{review}"-{userData.name}</li>
             <br />
           </div>
         ) : (

@@ -6,6 +6,7 @@ import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
 
 function App() {
+
   const [profileData, setProfileData] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3001/profile")
@@ -16,7 +17,7 @@ function App() {
   }, []);
 
   const [userData, setUserData] = useState({
-    booksInfo: []
+    booksInfo: [],
   });
   useEffect(() => {
     fetch("http://localhost:3001/user")
@@ -35,18 +36,17 @@ function App() {
       });
   }, []);
 
-
   return (
-      <div className="app">
-        <div className="title">
-          <h1>On the Same Page</h1>
-        </div>
-
-        <Header />
-        <BooksAside userData={userData} />
-        <MainContainer />
-        <BookClubAside clubsData={clubsData} />
+    <div className="app">
+      <div className="title">
+        <h1>On the Same Page</h1>
       </div>
+
+      <Header />
+      <BooksAside userData={userData} />
+      <MainContainer />
+      <BookClubAside clubsData={clubsData} />
+    </div>
   );
 }
 

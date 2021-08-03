@@ -41,6 +41,14 @@ li{
   text-align: center;
 }
 
+.star-image{
+  height: 24px
+}
+
+.star-image:hover{
+  cursor: pointer;
+}
+
 .front-back-lists{
   height: 150px;
 }
