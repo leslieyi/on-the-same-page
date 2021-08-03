@@ -7,13 +7,14 @@ import NavBar from "./NavBar";
 import Profiles from "./Profiles";
 
 function App() {
-  const [profileData, setProfileData] = useState([
-    {booksInfo: []}
-  ]);
+  const [profileData, setProfileData] = useState([]);
+
+
   useEffect(() => {
     fetch("http://localhost:3001/profile")
       .then((response) => response.json())
       .then((Data) => {
+        // console.log(Data)
         setProfileData(Data);
       });
   }, []);
@@ -23,7 +24,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <AppHome profileData={profileData}/>
+          <AppHome profileData={profileData} />
         </Route>
 
         <Route path="/profiles">
@@ -34,9 +35,6 @@ function App() {
           <ClubsPage />
         </Route>
       </Switch>
-
-
-
     </div>
   );
 }

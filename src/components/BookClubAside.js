@@ -3,9 +3,10 @@ import BookClub from './BookClub'
 function BookClubAside({ clubsData }) {
     const clubsToRender = clubsData.map((club) => {
         //console.log('from BookclubAside', club.members, club.members.join(" "))
+        //filterout Jaycessss
         if (club.members.join(" ").includes("Jaycesunderson")) {
             return <BookClub club={club} key={club.id}/>
-        }
+        } return ""
     })
 
     //console.log('hi from BookClubAside', clubsData)

@@ -6,9 +6,9 @@ function BookClub({ club }) {
 	const { name, location, members, comments } = club
 	//console.log('Hi from BookClub', members)
 
-	const membersRender = members.map((member) => <MembersList member={member} />)
+	const membersRender = members.map((member, index) => <MembersList key={index} member={member} />)
 	
-	const commentsRender = comments.map((comment) => <CommentCard comment={comment} />)
+	const commentsRender = comments.map((comment, index) => <CommentCard key={index} comment={comment} />)
 
 	return(
 		<div style={{backgroundColor: "lavender"}}>
