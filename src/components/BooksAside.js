@@ -1,7 +1,6 @@
 import BooksAsideInfo from "./BooksAsideInfo";
 
 function BooksAside({ userData }) {
-  
   return (
     <div className="column-left">
       <h3>{userData.name}'s Profile</h3>

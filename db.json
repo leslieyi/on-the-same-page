@@ -109,7 +109,9 @@
       "area": "Tallanasty"
     }
   ],
+  
   "user": {
+  
     "name": "Jason Jaycesunderson",
     "public": true,
     "favoriteGenre": "historical fiction",
@@ -171,6 +173,7 @@
     ],
     "area": "Tallanasty"
   },
+  
   "bookClubs": [
     {
       "name": "Tequila Mockingbird",
