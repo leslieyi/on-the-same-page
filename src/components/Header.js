@@ -2,9 +2,9 @@ import SearchBar from "./SearchBar"
 import Profile from "./Profile";
 function Header() {
     return (
-        <div>
-        <Profile />
+        <div className="header">
         <SearchBar />
+        <Profile />
         </div>
     )
 }

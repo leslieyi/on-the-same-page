@@ -2,6 +2,7 @@ function Container ({ profileData }) {
 
     return (
         <div className="column-center">
+
             <h1>Latest Activity</h1>
 
             {/* new user, similar author interest or history */}
@@ -27,8 +28,7 @@ function Container ({ profileData }) {
 
 
 
-            
-
+  
         </div>
 
     )
