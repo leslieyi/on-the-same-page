@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import MainContainer from "./MainContainer";
 import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
-import { useRouteMatch} from "react-router-dom";
 
-function AppHome({ profileData }) {
+function AppHome({ profileData, clubsData }) {
   const [userData, setUserData] = useState({
     booksInfo: [],
   });
@@ -15,17 +14,6 @@ function AppHome({ profileData }) {
         setUserData(Data);
       });
   }, []);
-
-  const [clubsData, setClubsData] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3001/bookClubs")
-      .then((response) => response.json())
-      .then((Data) => {
-        setClubsData(Data);
-      });
-  }, []);
-
-  const match = useRouteMatch();
 
   return (
     <div className="app" style={{backgroundColor: "blue"}} >
