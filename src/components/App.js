@@ -8,7 +8,6 @@ import Profiles from "./Profiles";
 
 function App() {
   const [profileData, setProfileData] = useState([
-    {booksInfo: []}
   ]);
   useEffect(() => {
     fetch("http://localhost:3001/profile")

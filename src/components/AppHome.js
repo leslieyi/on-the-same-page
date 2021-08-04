@@ -27,18 +27,15 @@ function AppHome({profileData}){
           });
       }, []);
 
-      return (
-        <div className="app">
-          <div className="title">
-            <h1>On the Same Page</h1>
+        return (
+          <div className="app" style={{backgroundColor: "blue"}} >
+            <BooksAside userData={userData} />
+            {profileData.length === 0 ? null : (
+              <MainContainer profileData={profileData} />
+            )}
+            <BookClubAside clubsData={clubsData} />
           </div>
-    
-          {/* <Header /> */}
-          <BooksAside userData={userData} />
-          <MainContainer profileData={profileData}/>
-          <BookClubAside clubsData={clubsData} />
-        </div>
-      );
-}
+        );
+      }
 
 export default AppHome;
