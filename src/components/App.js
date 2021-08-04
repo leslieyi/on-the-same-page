@@ -1,5 +1,5 @@
 // import '../App.css';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import AppHome from "./AppHome";
 import ClubsPage from "./ClubsPage";
@@ -22,6 +22,10 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Link style={{textDecoration: "none"}} className="title" to="/">
+          <h1>On the Same Page</h1>
+      </Link>
+
       <Switch>
         <Route exact path="/">
           <AppHome profileData={profileData} />
