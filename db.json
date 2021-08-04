@@ -4,18 +4,20 @@
       "id": 1,
       "name": "Alec Magnet",
       "profileImage": "https://images.unsplash.com/photo-1617130094141-532436117aa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+      "joinDate": "08-02-2021",
       "location":{
         "zipcode": "11201",
         "public":true
       },
-      "favoriteGenre": "fiction",
+      "favoriteGenre": "historical fiction",
       "booksInfo": [
         {
           "title": "The Google story",
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
           "image": "url",
-          "dateAdded":"08-02-2021"
+          "dateAdded":"08-02-2021",
+          "public": true
         }
       ],
       "area": "NYC"
@@ -24,6 +26,7 @@
       "id": 2,
       "name": "Mari Taksa",
       "profileImage": "https://images.unsplash.com/photo-1615139679227-446ab0cfe88d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+      "joinDate": "08-02-2020",
       "location":{
         "zipcode": "77007",
         "public":false
@@ -35,7 +38,8 @@
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
           "image": "url",
-          "dateAdded":"07-02-2021"
+          "dateAdded":"07-02-2021",
+          "public": true
         }
       ],
       "area": "Houston"
@@ -44,6 +48,7 @@
       "id": 3,
       "name": "Yearim Yi",
       "profileImage": "https://images.unsplash.com/photo-1585109649139-366815a0d713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "joinDate": "08-02-1999",
       "location":{
         "zipcode": "10004",
         "public":true
@@ -55,7 +60,8 @@
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
           "image": "url",
-          "dateAdded":"03-02-2020"
+          "dateAdded":"03-02-2020",
+          "public": false
         }
       ],
       "area": "NYC"
@@ -68,6 +74,8 @@
         "zipcode": "32303",
         "public":true
       },
+      "joinDate": "08-02-1982",
+      "public": true,
       "favoriteGenre": "historical fiction",
       "booksInfo": [
         {
@@ -77,7 +85,9 @@
           "publisher": "Penguin Publishing Group",
           "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
           "starReview": 4,
-          "review": "it's sodium cute"
+          "review": "it's sodium cute",
+          "dateAdded":"07-02-2010",
+          "public": true
         },
         {
           "id": 2,
@@ -86,7 +96,9 @@
           "publisher": "Penguin Publishing Group",
           "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
           "starReview": 3,
-          "review": "That's nice, dear"
+          "review": "That's nice, dear",
+          "dateAdded":"01-01-2006",
+          "public": true
         },
         {
           "id": 3,
@@ -95,7 +107,9 @@
           "publisher": "Random House Books for Young Readers",
           "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
-          "review": "Very Irrelephant"
+          "review": "Very Irrelephant",
+          "dateAdded":"10-17-1983",
+          "public": true
         },
         {
           "id": 4,
@@ -104,7 +118,9 @@
           "publisher": "Kids Can Press",
           "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
           "starReview": 3,
-          "review": "sighs..."
+          "review": "sighs...",
+          "dateAdded":"03-13-2020",
+          "public": true
         },
         {
           "id": 5,
@@ -113,7 +129,9 @@
           "publisher": "Riberhead Books",
           "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 2,
-          "review": "Florida Man is real"
+          "review": "Florida Man is real",
+          "dateAdded":"09-16-2016",
+          "public": false
         },
         {
           "id": 6,
@@ -122,7 +140,9 @@
           "publisher": "Scribner",
           "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
-          "review": "Woof"
+          "review": "Woof",
+          "dateAdded":"07-02-2020",
+          "public": true
         }
       ],
       "area": "Tallanasty"
@@ -131,6 +151,7 @@
       "id": 5,
       "name": "Adam LaRosa",
       "profileImage":"https://images.unsplash.com/photo-1580391564629-d95e06fc9699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+      "joinDate": "08-02-2000",
       "location":{
         "zipcode": "32301",
         "public":true
@@ -142,7 +163,8 @@
           "authors": "David A. Vise",
           "publisher": "Random House Digital, Inc.",
           "image": "url",
-          "dateAdded":"07-02-2021"
+          "dateAdded":"07-02-2021",
+          "public": true
         }
       ],
       "area": "Tallanasty"

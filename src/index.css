@@ -101,6 +101,11 @@ li {
   line-height: 1.5;
 }
 
+.column-center,
+.column-right{
+  background-color:rgba(255, 235, 205, 0.514);
+}
+
 .header {
   display: flex;
   margin-bottom: 100px;
