@@ -28,6 +28,8 @@ li {
 .column-right,
 .column-center {
   margin: 0 1.5% 24px 1.5%;
+  /* padding-bottom: 20px;
+  margin-bottom: 200px; */
   outline-style: solid;
   outline-width: 0.5px;
   float: left;

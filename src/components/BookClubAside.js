@@ -28,8 +28,8 @@ function BookClubAside({ clubsData }) {
                     <p>Would you like to join one? **make this P a link to suggestions**</p> 
                 </div>
                 : 
-                <div style={{padding: "10px"}} >
-                    <Card.Group>
+                <div style={{padding: "10px", }} >
+                    <Card.Group style={{ justifyContent: "center"}}>
                         {clubsToRender}
                     </Card.Group>
                 </div>
