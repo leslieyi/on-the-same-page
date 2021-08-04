@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app-body">
+    <div className="app-body" >
       <NavBar />
       <Link style={{textDecoration: "none"}} className="title" to="/">
           <h1>On the Same Page</h1>

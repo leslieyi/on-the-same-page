@@ -16,12 +16,14 @@ function ProfileShow({ profileData }) {
     <Card.Group  style={{justifyContent: "center"}}>
       <Card
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1535905496755-26ae35d0ae54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)`,
-          backgroundSize: "cover",
+          backgroundColor: "	rgb(64,64,64)"
+          // backgroundImage: `url(https://images.unsplash.com/photo-1535905496755-26ae35d0ae54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)`,
+          // backgroundSize: "cover",
         }}
       >
         <Image
           src={profile.profileImage}
+          style={{height: "300px"}}
           size="large"
         />
         <Card.Content style={{ color: "white" }}>
@@ -42,6 +44,7 @@ function ProfileShow({ profileData }) {
           {profile.booksInfo.map((book) => (
             <li>{book.title}</li>
           ))}
+          <br/>
         </Card.Content>
       </Card>
     </Card.Group>

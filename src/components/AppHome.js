@@ -28,7 +28,7 @@ function AppHome({ profileData }) {
   const match = useRouteMatch();
 
   return (
-    <div className="app" >
+    <div className="app" style={{backgroundColor: "blue"}} >
       <BooksAside userData={userData} />
       {profileData.length === 0 ? null : (
         <MainContainer profileData={profileData} />
