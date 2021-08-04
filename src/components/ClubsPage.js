@@ -22,11 +22,11 @@ function ClubsPage({ clubsData }){
     return (
         <div>
             <h1>New Clubs</h1>
-            <Card.Group>
+            <Card.Group style={{justifyContent: "center"}}>
                 {newClubCardsRender}
             </Card.Group>
             <h1>My Clubs</h1>
-            <Card.Group>
+            <Card.Group style={{justifyContent: "center"}}>
                 {myClubCardsRender}
             </Card.Group>
         </div>
