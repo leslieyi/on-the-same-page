@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import MainContainer from "./MainContainer";
 import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
-import { Route, useRouteMatch, Link } from "react-router-dom";
+import { useRouteMatch} from "react-router-dom";
 
 function AppHome({ profileData }) {
   const [userData, setUserData] = useState({
@@ -28,7 +28,7 @@ function AppHome({ profileData }) {
   const match = useRouteMatch();
 
   return (
-    <div className="app">
+    <div className="app" >
       <BooksAside userData={userData} />
       {profileData.length === 0 ? null : (
         <MainContainer profileData={profileData} />
