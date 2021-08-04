@@ -22,7 +22,7 @@ function ProfileShow({ profileData }) {
       <p> <span className="span-titles">Favorite Genre:</span> {profile.favoriteGenre}</p>
       <p> <span className="span-titles">Area:</span> {profile.area}</p>
       <p> <span className="span-titles">Zipcode:</span> {profile.location.public ?  profile.location.zipcode : "❗Sorry, This Info ain't Public❗"}</p>
-      <p> <span className="span-titles">Saved Books:</span> {profile.booksInfo.map(book=>book.title)}</p>
+      <span className="span-titles">Saved Books:</span>{profile.booksInfo.map(book=><li>{book.title}</li>)}
       
 
 

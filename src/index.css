@@ -1,24 +1,21 @@
-
-
-body{
+body {
   background-image: url(https://images.unsplash.com/photo-1595315343110-9b445a960442?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80);
-  background-repeat: 'no-repeat';
+  background-repeat: "no-repeat";
   background-size: cover;
   text-align: center;
-  font-family: 'Gowun Dodum', sans-serif;
-  font-weight:lighter;
-
-
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: lighter;
 }
-
 
 .title h1 {
-  font-weight:lighter;
-  font-size: 70px;
-  
+  font-family: "Nanum Myeongjo", serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.753);
 }
 
-li{
+li {
   list-style-type: none;
 }
 
@@ -30,11 +27,13 @@ li{
   outline-width: 0.5px;
   float: left;
   width: 30%;
+  font-family: "Barlow", sans-serif;
+  font-weight: lighter;
+  background-color: rgba(255, 242, 223, 0.856);
 }
 
-.column-left{
-  font-family: 'Barlow', sans-serif;
-  background-color:rgba(255, 242, 223, 0.856);
+.column-left {
+  font-family: "Barlow", sans-serif;
   text-align: left;
 }
 
@@ -49,50 +48,52 @@ li{
   text-transform: uppercase;
 }
 
+.column-left h3:hover {
+  transition: 0.5s;
+  text-shadow: rgba(0, 0, 0, 0.692) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
 .column-left ul {
   text-align: center;
 }
 
-.star-image{
-  height: 24px
+.star-image {
+  height: 24px;
 }
 
-.star-image:hover{
+.star-image:hover {
   cursor: pointer;
 }
 
-.front-back-lists{
+.front-back-lists {
   height: 150px;
 }
 
-.bookImage{
+.bookImage {
   vertical-align: middle;
   margin-right: 10px;
   margin-left: 20px;
-  float:left;
+  float: left;
   width: 80px;
   height: 100px;
   border-radius: 5%;
 }
 
 .bookImage:hover {
-  transition: .5s;
+  transition: 0.5s;
   box-shadow: rgb(0, 0, 0) 10px 10px 30px -10px;
 }
 
-.books-aside-lists-front{
+.books-aside-lists-front {
   text-align: left;
   line-height: 1.5;
   margin-right: 10px;
 }
 
-.books-aside-lists-back{
+.books-aside-lists-back {
   text-align: justify;
   line-height: 1.5;
-}
-
-.column-right{
-  background-color:rgba(255, 235, 205, 0.514);
 }
 
 .header {
@@ -106,7 +107,7 @@ li{
 
 .profile {
   font-weight: lighter;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 .profile h3 {
   text-transform: uppercase;
@@ -116,16 +117,16 @@ li{
   height: 40px;
   width: 40px;
 }
-.profile-info-card{
+.profile-info-card {
   outline-style: solid;
   /* display: flex; */
   flex-wrap: wrap;
   text-align: center;
-
-
+  background-color: rgba(255, 242, 223, 0.856);
 }
 
-.nav-link{
-  font-size: 25px;
-
+.nav-link {
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
 }
