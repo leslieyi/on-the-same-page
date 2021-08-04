@@ -18,18 +18,18 @@ function BooksAsideInfo({
 
     }
 
-    // const starID = `booksInfo.${e.target.id}.starReview`
-    // console.log(starID)
-    // console.log(typeof starID)
+    const starID = `booksInfo.${e.target.id}.starReview`
+    console.log(starID)
+    console.log(typeof starID)
     
-    // fetch("http://localhost:3001/user", {
-    // method: 'PATCH', 
-    // headers: {'Content-type': 'application/json'},
-    // body: JSON.stringify({
-    // starID: starNum
-    // }),
+    fetch("http://localhost:3001/user", {
+    method: 'PATCH', 
+    headers: {'Content-type': 'application/json'},
+    body: JSON.stringify({
+    starID: starNum
+    }),
     
-    // })
+    })
     // .then(r => r.json())
     // .then(data => console.log(data))
   }//add a fetch request method Patch!
