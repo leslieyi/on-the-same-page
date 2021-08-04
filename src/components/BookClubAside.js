@@ -34,8 +34,6 @@ function BookClubAside({ clubsData }) {
                     </Card.Group>
                 </div>
             }
-            <em>GOALS: (1) render each club as a card instead of a div (2) make each member name a link to their profile (3) add a link to join more clubs (4) make comments each a card and add time and date posted (5) make zip codes render as city names</em>
-
         </div>
     )
 }
