@@ -168,6 +168,28 @@
         }
       ],
       "area": "Tallanasty"
+    },
+    {
+      "id": 6,
+      "name": "Andy Aguilar",
+      "profileImage":"https://images.unsplash.com/photo-1570700326774-ccc863636d6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+      "joinDate": "04-02-2002",
+      "location":{
+        "zipcode": "20001",
+        "public":false
+      },
+      "favoriteGenre": "dystopian",
+      "booksInfo": [
+        {
+          "title": "Nineteen Eighty-Four",
+          "authors": "George Orwell",
+          "publisher": "Secker & Warburg",
+          "image": "https://m.media-amazon.com/images/I/51HKO6C5A5L.jpg",
+          "dateAdded":"08-05-2021",
+          "public": true
+        }
+      ],
+      "area": "DC"
     }
   ],
   

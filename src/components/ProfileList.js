@@ -6,7 +6,7 @@ function ProfileList({ profile }) {
   const renderLists = (
 
     <li>
-      <Link style={{color: 'black'}}  to={`/profiles/${profile.id}`}>{profile.name ===  "Jason Jaycesunderson" ? `🔓${profile.name}🔓` : profile.name}</Link>
+      <Link style={{color: 'black', fontSize: "20px", justifyContent: "center"}}  to={`/profiles/${profile.id}`}>{profile.name ===  "Jason Jaycesunderson" ? `🔓${profile.name}🔓` : profile.name}</Link>
     </li>
   );
 

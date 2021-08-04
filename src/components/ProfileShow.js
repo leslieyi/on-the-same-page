@@ -33,22 +33,23 @@ function ProfileShow({ profileData }) {
           <span className="span-titles">Favorite Genre:</span>{" "}
           {profile.favoriteGenre}
           <Card.Description style={{ color: "white" }}>
-            <span className="span-titles">Area:</span> <p>{profile.area}
-              </p>
+            <span className="span-titles">Area:</span> {profile.area}
             <br />
             <span className="span-titles">Zipcode:</span>{" "}
-            <p>
             {profile.location.public
               ? profile.location.zipcode
               : "❗Sorry, This Info ain't Public❗"}
               
-            </p>
+          
           </Card.Description>
         </Card.Content>
         <Card.Content extra style={{ color: "white" }}>
           <span className="span-titles">Saved Books:</span>
           {profile.booksInfo.map((book) => (
+            <>
             <li>{book.title}</li>
+            <img style={{height: "60px", width: "50px", }} src={book.image}/>
+            </>
           ))}
           <br />
         </Card.Content>
