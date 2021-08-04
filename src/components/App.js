@@ -19,12 +19,21 @@ function App() {
       });
   }, []);
 
+      const [clubsData, setClubsData] = useState([]);
+      useEffect(() => {
+        fetch("http://localhost:3001/bookClubs")
+          .then((response) => response.json())
+          .then((Data) => {
+            setClubsData(Data);
+          });
+      }, []);
+
   return (
     <div>
       <NavBar />
       <Switch>
         <Route exact path="/">
-          <AppHome profileData={profileData} />
+          <AppHome profileData={profileData} clubsData={clubsData} />
         </Route>
 
         <Route path="/profiles">
@@ -32,7 +41,7 @@ function App() {
         </Route>
 
         <Route path="/clubs">
-          <ClubsPage />
+          <ClubsPage clubsData={clubsData}/>
         </Route>
       </Switch>
     </div>

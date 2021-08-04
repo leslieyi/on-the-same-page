@@ -97,10 +97,10 @@ li{
 
 .header {
   display: flex;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   margin-left: 20px;
   margin-right: 20px;
-  outline-style: double;
+  /* outline-style: double; */
   justify-content: space-evenly;
 }
 

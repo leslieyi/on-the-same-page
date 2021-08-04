@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import MainContainer from "./MainContainer";
-import Header from "./Header";
 import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
 
 
 
-function AppHome({profileData}){
+function AppHome({ profileData, clubsData }){
       const [userData, setUserData] = useState({
         booksInfo: [],
       });
@@ -18,22 +17,12 @@ function AppHome({profileData}){
           });
       }, []);
     
-      const [clubsData, setClubsData] = useState([]);
-      useEffect(() => {
-        fetch("http://localhost:3001/bookClubs")
-          .then((response) => response.json())
-          .then((Data) => {
-            setClubsData(Data);
-          });
-      }, []);
-
       return (
-        <div className="app">
+        <div className="app" >
           <div className="title">
             <h1>On the Same Page</h1>
           </div>
     
-          {/* <Header /> */}
           <BooksAside userData={userData} />
           {profileData.length === 0 ? null : <MainContainer profileData={profileData}/>}
           <BookClubAside clubsData={clubsData} />
