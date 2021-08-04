@@ -1,9 +1,10 @@
 import BooksAsideInfo from "./BooksAsideInfo";
 import { Link } from "react-router-dom"
+import { Card } from "semantic-ui-react";
 
 function BooksAside({ userData }) {
   return (
-    <div className="column-left">
+    <div className="column-left" >
       <Link style={{ textDecoration: 'none', color : "black" }} to="/profiles/4">
       <h3>{userData.name}'s Profile</h3>
       </Link>
@@ -13,7 +14,12 @@ function BooksAside({ userData }) {
       </ul>
 
       {userData.booksInfo.map(book=> 
-        <BooksAsideInfo key={Math.random()} book={book}/>)}
+        <Card.Group style={{justifyContent: "center"}}>
+          <BooksAsideInfo key={Math.random()} book={book}/>
+        </Card.Group>
+          
+          )}
+          
 
     </div>
   )}

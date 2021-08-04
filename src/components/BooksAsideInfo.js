@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Card} from "semantic-ui-react"
 
 function BooksAsideInfo({
   book: { title, image, authors, publisher, review, starReview, id },
@@ -18,18 +19,18 @@ function BooksAsideInfo({
 
     }
 
-    const starID = `booksInfo.${e.target.id}.starReview`
-    console.log(starID)
-    console.log(typeof starID)
+    // const starID = `booksInfo.${e.target.id}.starReview`
+    // console.log(starID)
+    // console.log(typeof starID)
     
-    fetch("http://localhost:3001/user", {
-    method: 'PATCH', 
-    headers: {'Content-type': 'application/json'},
-    body: JSON.stringify({
-    starID: starNum
-    }),
+    // fetch("http://localhost:3001/user", {
+    // method: 'PATCH', 
+    // headers: {'Content-type': 'application/json'},
+    // body: JSON.stringify({
+    // starID: starNum
+    // }),
     
-    })
+    // })
     // .then(r => r.json())
     // .then(data => console.log(data))
   }//add a fetch request method Patch!
@@ -37,8 +38,8 @@ function BooksAsideInfo({
 
 
   return (
-    <div>
-      <div className="front-back-lists">
+    <Card >
+      <div className="front-back-lists" >
         <br />
         <img
           key={id}
@@ -66,7 +67,7 @@ function BooksAsideInfo({
           </div>
         )}
       </div>
-    </div>
+      </Card>
   );
 }
 
