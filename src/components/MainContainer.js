@@ -12,7 +12,7 @@ function Container ({ profileData, setProfileData }) {
       body: JSON.stringify({newStatus})
     })
     .then (resp => resp.json())
-    .then (newStatus => handleNewStatus(newStatus))
+    .then (newStatus => setNewStatus(newStatus))
   }
 
     
