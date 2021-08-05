@@ -8,7 +8,7 @@ import Profiles from "./Profiles";
 
 function App() {
   const [profileData, setProfileData] = useState([]);
-
+  const [clubsData, setClubsData] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/profile")
@@ -19,14 +19,13 @@ function App() {
       });
   }, []);
 
-      const [clubsData, setClubsData] = useState([]);
-      useEffect(() => {
-        fetch("http://localhost:3001/bookClubs")
-          .then((response) => response.json())
-          .then((Data) => {
-            setClubsData(Data);
-          });
-      }, []);
+  useEffect(() => {
+    fetch("http://localhost:3001/bookClubs")
+      .then((response) => response.json())
+      .then((Data) => {
+        setClubsData(Data);
+      });
+  }, []);
 
   return (
     <div className="app-body" >
@@ -45,7 +44,7 @@ function App() {
         </Route>
 
         <Route path="/clubs">
-          <ClubsPage clubsData={clubsData}/>
+          <ClubsPage clubsData={clubsData} setClubsData={setClubsData} />
         </Route>
       </Switch>
     </div>

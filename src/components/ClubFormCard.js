@@ -3,7 +3,7 @@ import { useState } from 'react'
 import CardMemberButton from './CardMemberButton'
 
 
-const ClubFormCard = () => {
+const ClubFormCard = ({ clubsData, setClubsData }) => {
 	const [formData, setFormData] = useState({
         name: "",
         location: ""
@@ -45,11 +45,27 @@ const ClubFormCard = () => {
 	function handleSubmit(e) {
         e.preventDefault()
 		console.log("handleSubmit", e)
-		// setFormData({
-		// 	name: "",
-		// 	location: ""
-		// 	})
-		// setFormMembers(['Jason Jaycesunderson'])
+		fetch("http://localhost:3001/bookClubs", {
+			method: "POST",
+			headers: {
+			"Content-Type": "application/json",
+			},
+			body: JSON.stringify({
+				name: formData.name,
+				location: formData.location,
+				members: formMembers,
+				comments: []
+			}),
+		})
+			.then(r => r.json())
+			.then(data => {
+				setClubsData([...clubsData, data])
+				setFormData({
+					name: "",
+					location: ""
+					})
+				setFormMembers(['Jason Jaycesunderson'])
+			})
 	}
 
 	//I added all this in-line style on the Card.Headers because Semantic UI overrode the CSS in index.css somehow

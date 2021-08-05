@@ -5,9 +5,9 @@
       "name": "Alec Magnet",
       "profileImage": "https://images.unsplash.com/photo-1617130094141-532436117aa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
       "joinDate": "08-02-2021",
-      "location":{
+      "location": {
         "zipcode": "11201",
-        "public":true
+        "public": true
       },
       "favoriteGenre": "fantasy",
       "booksInfo": [
@@ -16,7 +16,7 @@
           "authors": "Terry Pratchett, Neil Gaiman",
           "publisher": "Workman",
           "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Goodomenscover.jpg",
-          "dateAdded":"08-02-2021"
+          "dateAdded": "08-02-2021"
         }
       ],
       "area": "NYC"
@@ -26,9 +26,9 @@
       "name": "Mari Taksa",
       "profileImage": "https://images.unsplash.com/photo-1615139679227-446ab0cfe88d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       "joinDate": "08-02-2020",
-      "location":{
+      "location": {
         "zipcode": "77007",
-        "public":false
+        "public": false
       },
       "favoriteGenre": "romance",
       "booksInfo": [
@@ -37,7 +37,7 @@
           "authors": "Carl Japikse",
           "publisher": "Frog Books",
           "image": "https://images-na.ssl-images-amazon.com/images/I/513b-gd5mYL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-          "dateAdded":"07-02-2021"
+          "dateAdded": "07-02-2021"
         }
       ],
       "area": "Houston"
@@ -47,9 +47,9 @@
       "name": "Yearim Yi",
       "profileImage": "https://images.unsplash.com/photo-1585109649139-366815a0d713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
       "joinDate": "08-02-1999",
-      "location":{
+      "location": {
         "zipcode": "10004",
-        "public":true
+        "public": true
       },
       "favoriteGenre": "non-fiction",
       "booksInfo": [
@@ -58,7 +58,7 @@
           "authors": "Sterling Johnson",
           "publisher": "St. Martin's Griffin",
           "image": "https://images-na.ssl-images-amazon.com/images/I/41FSMUfjPYL._SX279_BO1,204,203,200_.jpg",
-          "dateAdded":"03-12-2020"
+          "dateAdded": "03-12-2020"
         }
       ],
       "area": "NYC"
@@ -67,9 +67,9 @@
       "id": 4,
       "name": "Jason Jaycesunderson",
       "profileImage": "https://images.unsplash.com/photo-1533384159656-84b8ae5ce5e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
-      "location":{
+      "location": {
         "zipcode": "32303",
-        "public":true
+        "public": true
       },
       "joinDate": "08-02-1982",
       "public": true,
@@ -83,7 +83,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
           "starReview": 4,
           "review": "it's sodium cute",
-          "dateAdded":"07-02-2010"
+          "dateAdded": "07-02-2010"
         },
         {
           "id": 2,
@@ -93,7 +93,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
           "starReview": 3,
           "review": "That's nice, dear",
-          "dateAdded":"01-01-2006"
+          "dateAdded": "01-01-2006"
         },
         {
           "id": 3,
@@ -103,7 +103,7 @@
           "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Very Irrelephant",
-          "dateAdded":"10-17-1983"
+          "dateAdded": "10-17-1983"
         },
         {
           "id": 4,
@@ -113,7 +113,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
           "starReview": 3,
           "review": "sighs...",
-          "dateAdded":"03-13-2020"
+          "dateAdded": "03-13-2020"
         },
         {
           "id": 5,
@@ -123,7 +123,7 @@
           "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 2,
           "review": "Florida Man is real",
-          "dateAdded":"09-16-2016"
+          "dateAdded": "09-16-2016"
         },
         {
           "id": 6,
@@ -133,7 +133,7 @@
           "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Woof",
-          "dateAdded":"07-02-2020"
+          "dateAdded": "07-02-2020"
         }
       ],
       "area": "Tallanasty"
@@ -141,11 +141,11 @@
     {
       "id": 5,
       "name": "Adam LaRosa",
-      "profileImage":"https://images.unsplash.com/photo-1580391564629-d95e06fc9699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1580391564629-d95e06fc9699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
       "joinDate": "08-02-2000",
-      "location":{
+      "location": {
         "zipcode": "32301",
-        "public":true
+        "public": true
       },
       "favoriteGenre": "non-fiction",
       "booksInfo": [
@@ -154,7 +154,7 @@
           "authors": "Ashida kim",
           "publisher": "Citadel",
           "image": "https://images-na.ssl-images-amazon.com/images/I/41wYLKyzy-L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-          "dateAdded":"07-02-2021"
+          "dateAdded": "07-02-2021"
         }
       ],
       "area": "Tallanasty"
@@ -162,11 +162,11 @@
     {
       "id": 6,
       "name": "Andy Aguilar",
-      "profileImage":"https://images.unsplash.com/photo-1570700326774-ccc863636d6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1570700326774-ccc863636d6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       "joinDate": "04-02-2002",
-      "location":{
+      "location": {
         "zipcode": "20001",
-        "public":false
+        "public": false
       },
       "favoriteGenre": "dystopian",
       "booksInfo": [
@@ -175,20 +175,18 @@
           "authors": "George Orwell",
           "publisher": "Secker & Warburg",
           "image": "https://m.media-amazon.com/images/I/51HKO6C5A5L.jpg",
-          "dateAdded":"08-05-2021",
+          "dateAdded": "08-05-2021",
           "public": true
         }
       ],
       "area": "DC"
     }
   ],
-  
   "user": {
-  
     "name": "Jason Jaycesunderson",
-    "location":{
+    "location": {
       "zipcode": "32301",
-      "public":true
+      "public": true
     },
     "favoriteGenre": "historical fiction",
     "booksInfo": [
@@ -249,7 +247,6 @@
     ],
     "area": "Tallanasty"
   },
-  
   "bookClubs": [
     {
       "name": "Tequila Mockingbird",
@@ -333,7 +330,8 @@
           "text": "Atticus is bae"
         }
       ]
-    },{
+    },
+    {
       "name": "Clever Name",
       "id": 5,
       "location": "10025",
@@ -353,7 +351,8 @@
           "text": "Comment to come"
         }
       ]
-    },{
+    },
+    {
       "name": "Yet Another Book Club",
       "id": 6,
       "location": "10025",

@@ -4,7 +4,7 @@ import 'semantic-ui-css/semantic.min.css'
 import ClubCard from './ClubCard'
 import ClubFormCard from './ClubFormCard'
 
-function ClubsPage({ clubsData }){
+function ClubsPage({ clubsData, setClubsData }){
     // const match = useRouteMatch();
     // const params = useParams()
     
@@ -28,7 +28,7 @@ function ClubsPage({ clubsData }){
             </Card.Group>
             <h1><span style={{backgroundColor: "#ffd899", padding:"5px"}}>My Clubs</span></h1>
             <Card.Group style={{justifyContent: "center"}}>
-                <ClubFormCard />
+                <ClubFormCard clubsData={clubsData} setClubsData={setClubsData} />
                 {myClubCardsRender}
             </Card.Group>
         </div>

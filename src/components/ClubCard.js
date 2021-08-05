@@ -6,9 +6,8 @@ import CommentCard from "./CommentCard"
 
 function ClubCard({ club }) {
 	const { name, location, members, comments } = club
-    // const match = useRouteMatch();
-
-	//const membersRender = members.map((member, index) => <MembersList key={index} member={member} />)
+    
+	// const match = useRouteMatch();
 	
 	const commentsRender = comments.map((comment, index) => <CommentCard key={index} comment={comment} />)
 

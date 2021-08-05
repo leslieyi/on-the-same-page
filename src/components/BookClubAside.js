@@ -3,7 +3,7 @@ import { Card } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import ClubCard from './ClubCard'
 
-function BookClubAside({ clubsData }) {
+function BookClubAside({ clubsData }) {    
     const clubsToRender = clubsData.map((club) => {
         //filterout Jaycessss
         if (club.members.join(" ").includes("Jaycesunderson")) {
