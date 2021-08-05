@@ -60,6 +60,13 @@ div.column-left {
   font-weight: bold;
 }
 
+.column-left button {
+  font-size: large;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+
 .column-left h3 {
   font-weight: lighter;
   text-decoration: underline rgb(0, 0, 0);
