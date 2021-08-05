@@ -6,11 +6,11 @@ function ProfileList({ profile }) {
   const renderLists = (
 
     <li>
-      <Link style={{color: 'black', fontSize: "20px", justifyContent: "center"}}  to={`/profiles/${profile.id}`}>{profile.name ===  "Jason Jaycesunderson" ? `🔓${profile.name}🔓` : profile.name}</Link>
+      <Link style={{color: 'black', fontSize: "20px", justifyContent: "center",textTransform: "uppercase"}}  to={`/profiles/${profile.id}`}>{profile.name ===  "Jason Jaycesunderson" ? `🔓${profile.name}🔓` : profile.name}</Link>
     </li>
   );
 
-  return <ul>{renderLists}</ul>;
+  return <ul className="profile-lists">{renderLists}</ul>;
 }
 
 export default ProfileList;
