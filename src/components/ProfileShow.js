@@ -9,7 +9,7 @@ function ProfileShow({ profileData }) {
   // call useParams to access the `params` from the url:
   // the dynamic portion of our /profiles/:profileId path
 
-  const profile = profileData.find((item) => item.id == params.profileId);
+  const profile = profileData.find((item) => item.id === params.profileId);
   // In the initial state, profileData is an empty array and profile is null
   // as a result. Only after fetch, do we get data in profileData.
 
@@ -51,7 +51,7 @@ function ProfileShow({ profileData }) {
             <span className="span-titles">Authors: </span> {book.authors} <br/>
             <span className="span-titles">Publisher: </span> {book.publisher} <br/>
             <a href={book.image}>
-            <img style={{height: "60px", width: "50px",}} src={book.image}/>
+            <img alt="book" style={{height: "60px", width: "50px",}} src={book.image}/>
             </a>
             <Card.Meta style={{ color: "white", fontSize:"10px"}}><span className="span-titles">Date Added:</span> {book.dateAdded}</Card.Meta>
             <hr/>
