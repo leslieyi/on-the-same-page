@@ -183,6 +183,7 @@
     }
   ],
   "user": {
+    "id": 1,
     "name": "Jason Jaycesunderson",
     "location": {
       "zipcode": "32301",
@@ -196,7 +197,7 @@
         "authors": "Mark Kurlansky",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
-        "starReview": 4,
+        "starReview": "4",
         "review": "it's sodium cute"
       },
       {
@@ -205,7 +206,7 @@
         "authors": "Betty White",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "That's nice, dear"
       },
       {
@@ -214,7 +215,7 @@
         "authors": "Jean De Brunhoff",
         "publisher": "Random House Books for Young Readers",
         "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Very Irrelephant"
       },
       {
@@ -223,7 +224,7 @@
         "authors": "Paulette Bourgeois ",
         "publisher": "Kids Can Press",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "sighs..."
       },
       {
@@ -232,7 +233,7 @@
         "authors": "Lauren Groff",
         "publisher": "Riberhead Books",
         "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 2,
+        "starReview": "2",
         "review": "Florida Man is real"
       },
       {
@@ -241,7 +242,7 @@
         "authors": "Chad Orzel",
         "publisher": "Scribner",
         "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Woof"
       }
     ],

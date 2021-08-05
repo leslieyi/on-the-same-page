@@ -5,7 +5,7 @@ function BooksAsideInfo({
   book: { title, image, authors, publisher, review, starReview, id },
 }) {
   const [clicked, setClicked] = useState(false);
-  const [starNum, setStarNum] = useState(starReview);
+  const [starNum, setStarNum] = useState(parseInt(starReview));
 
   function handleClick() {
     setClicked(!clicked);
