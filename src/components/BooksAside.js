@@ -9,13 +9,13 @@ function BooksAside({ userData }) {
       <h3>{userData.name}'s Profile</h3>
       </Link>
       <ul>
-        <li><span className="span-titles">My Favorite Genre:</span> {userData.favoriteGenre}</li>
+        <li ><span className="span-titles">My Favorite Genre:</span> {userData.favoriteGenre}</li>
         <li><span className="span-titles">My Location:</span> {userData.area}</li>
       </ul>
 
-      {userData.booksInfo.map(book=> 
-        <Card.Group style={{justifyContent: "center"}}>
-          <BooksAsideInfo key={Math.random()} book={book}/>
+      {userData.booksInfo.map((book, index)=> 
+        <Card.Group  key={index} style={{justifyContent: "center"}}>
+          <BooksAsideInfo book={book}/>
         </Card.Group>
           
           )}
