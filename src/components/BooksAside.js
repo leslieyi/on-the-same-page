@@ -4,21 +4,30 @@ import { Card } from "semantic-ui-react";
 import {useState} from "react"
 
  
-function BooksAside({ userData, setUserData}) {
+function BooksAside({ userData}) {
+  
+  let bookArray = userData.booksInfo
 
+  const [search, setSearching] = useState("")
+  function handleSearch(e){
+    setSearching(e.target.value)
+  } 
+  let searchedData = bookArray.filter(item => item.title.toLowerCase().includes(search.toLowerCase()) || item.authors.toLowerCase().includes(search.toLowerCase()))
+
+  
   const [sort, setSort] = useState(false)
-
   function handleSort(){
     setSort(!sort)
   }
-  let bookArray = userData.booksInfo
-  
+
   let sortedData 
   if (sort === true){
-    sortedData = [...bookArray].sort((a,b)=> a.title < b.title ? -1 : 1)
+    sortedData = [...searchedData].sort((a,b)=> a.title < b.title ? -1 : 1)
   } else {
-    sortedData = bookArray
+    sortedData = searchedData
   }
+
+
   
   return (
     <div className="column-left">
@@ -30,6 +39,7 @@ function BooksAside({ userData, setUserData}) {
         <li><span className="span-titles">My Location:</span> {userData.area}</li>
       </ul>
       <button onClick={handleSort}>Sort by Title</button>
+      <input placeholder="Start Searching" onChange={handleSearch}></input>
 
       {sortedData.map((book, index)=> 
         <Card.Group  key={index} style={{justifyContent: "center"}}>

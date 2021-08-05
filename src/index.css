@@ -62,7 +62,13 @@ div.column-left {
 
 .column-left button {
   font-size: large;
-  margin-left: 100px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+
+}
+.column-left input {
+  font-size: large;
+  margin-left: 75px;
   margin-bottom: 20px;
 
 }
