@@ -9,7 +9,7 @@ function ProfileShow({ profileData }) {
   // call useParams to access the `params` from the url:
   // the dynamic portion of our /profiles/:profileId path
 
-  const profile = profileData.find((item) => item.id === params.profileId);
+  const profile = profileData.find((item) => item.id == params.profileId);
   // In the initial state, profileData is an empty array and profile is null
   // as a result. Only after fetch, do we get data in profileData.
 

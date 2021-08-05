@@ -15,9 +15,13 @@ function AppHome({ profileData, clubsData }) {
       });
   }, []);
 
+
+
   return (
     <div className="app" style={{backgroundColor: "blue"}} >
-      <BooksAside userData={userData} />
+      {userData.booksInfo.length === 0 ? null:
+      <BooksAside userData={userData}/>
+      }
       {profileData.length === 0 ? null : (
         <MainContainer profileData={profileData} />
       )}
