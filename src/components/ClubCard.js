@@ -1,15 +1,17 @@
 import { Card, Feed } from 'semantic-ui-react'
 import CommentCard from "./CommentCard"
+import { Link } from "react-router-dom"
 // import { Route, useRouteMatch } from "react-router-dom"
 // import ClubShow from './ClubShow'
 
 
 function ClubCard({ club }) {
-	const { name, location, members, comments } = club
+	const { name, location, members, comments, id } = club
     
 	// const match = useRouteMatch();
 	
 	const commentsRender = comments.map((comment, index) => <CommentCard key={index} comment={comment} />)
+	const url = `http://localhost:3000/clubs/${id}`
 
 	return (
 		<Card style={{backgroundColor: "#fffae6"}} >
@@ -25,12 +27,10 @@ function ClubCard({ club }) {
 				<Feed>
 					{commentsRender}
 				</Feed>
+				<Link to={url}>
+        			See More
+      			</Link>
 			</Card.Content>
-			{/* <Card.Content>
-				<Route path={`${match.url}/:profileId`}>
-        			<ClubShow club={club} />
-      			</Route>
-			</Card.Content> */}
 		</Card>
 	)
 }
