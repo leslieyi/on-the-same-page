@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Card, CardContent } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import ClubCard from './ClubCard'
 
