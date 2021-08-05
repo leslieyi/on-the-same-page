@@ -1,6 +1,26 @@
-function Container ({ profileData }) {
+import React, { useState } from "react";
+import StatusForm from "./StatusForm";
+
+function Container ({ profileData, setProfileData }) {
+    const [newStatus, setNewStatus] = useState("")
+
+    function handleSubmit(e) {
+    e.preventDefault()
+    fetch("http://localhost:3001/user", {
+      method: "POST",
+      headers: {"Content-type" : "application/json"},
+      body: JSON.stringify({newStatus})
+    })
+    .then (resp => resp.json())
+    .then (newStatus => handleNewStatus(newStatus))
+  }
+
+    
+    
     return (
         <div className="column-center">
+            <StatusForm newStatus={newStatus} setNewStatus={setNewStatus} handleNewStatus={handleNewStatus} handleSubmit={handleSubmit}/>
+
             <h1>Latest Activity</h1>
             {/* this container will have 7 h2s. each one will show the latest activity relative to their position. h2#1 will show the latest activity. h2#2 will show the 2nd latest activity. 
             

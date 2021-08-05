@@ -30,7 +30,7 @@ function App() {
 
       <Switch>
         <Route exact path="/">
-          <AppHome profileData={profileData} />
+          <AppHome setProfileData={setProfileData} profileData={profileData} />
         </Route>
 
         <Route path="/profiles">

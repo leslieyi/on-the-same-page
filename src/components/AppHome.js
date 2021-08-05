@@ -4,7 +4,7 @@ import BooksAside from "./BooksAside";
 import BookClubAside from "./BookClubAside";
 import { useRouteMatch} from "react-router-dom";
 
-function AppHome({ profileData }) {
+function AppHome({ profileData, setProfileData }) {
   const [userData, setUserData] = useState({
     booksInfo: [],
   });
@@ -31,7 +31,7 @@ function AppHome({ profileData }) {
     <div className="app" style={{backgroundColor: "blue"}} >
       <BooksAside userData={userData} />
       {profileData.length === 0 ? null : (
-        <MainContainer profileData={profileData} />
+        <MainContainer setProfileData={setProfileData} profileData={profileData} />
       )}
       <BookClubAside clubsData={clubsData} />
     </div>
