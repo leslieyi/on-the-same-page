@@ -50,6 +50,11 @@ div.column-right{
   margin-bottom: 20px;
 }
 
+.inputField{
+  margin:3em auto;
+  opacity:.5;
+  text-align:center;
+}
 div.column-left {
   font-family: "Barlow", sans-serif;
   text-align: left;
@@ -62,13 +67,13 @@ div.column-left {
 
 .column-left button {
   font-size: large;
-  margin-left: 120px;
+  margin-left: 130px;
   margin-bottom: 20px;
 
 }
 .column-left input {
   font-size: large;
-  margin-left: 75px;
+  margin-left: 110px;
   margin-bottom: 20px;
 
 }
@@ -191,3 +196,5 @@ justify-content: space-evenly;
   text-shadow: rgba(0, 0, 0, 0.692) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
+
+

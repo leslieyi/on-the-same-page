@@ -19,7 +19,7 @@ function AppHome({ profileData, clubsData }) {
 
   return (
     <div className="app" style={{backgroundColor: "blue"}} >
-      <BooksAside userData={userData} setUserData={setUserData}/>
+      <BooksAside userData={userData} setUserData={setUserData} />
       {profileData.length === 0 ? null : (
         <MainContainer profileData={profileData} />
       )}
