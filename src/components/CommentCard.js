@@ -1,4 +1,4 @@
-import { Card, Feed, } from 'semantic-ui-react'
+import { Feed, } from 'semantic-ui-react'
 
 function CommentCard({ comment }) {
 	const { poster, time, text} = comment
