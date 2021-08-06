@@ -16,7 +16,8 @@
           "authors": "Terry Pratchett, Neil Gaiman",
           "publisher": "Workman",
           "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Goodomenscover.jpg",
-          "dateAdded": "08-02-2021"
+          "dateAdded": "08-02-2021",
+          "public": true
         }
       ],
       "area": "NYC"
@@ -30,14 +31,15 @@
         "zipcode": "77007",
         "public": false
       },
-      "favoriteGenre": "romance",
+      "favoriteGenre": "historical fiction",
       "booksInfo": [
         {
           "title": "The Zen of Farting",
           "authors": "Carl Japikse",
           "publisher": "Frog Books",
           "image": "https://images-na.ssl-images-amazon.com/images/I/513b-gd5mYL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-          "dateAdded": "07-02-2021"
+          "dateAdded": "07-02-2021",
+          "public": true
         }
       ],
       "area": "Houston"
@@ -58,7 +60,8 @@
           "authors": "Sterling Johnson",
           "publisher": "St. Martin's Griffin",
           "image": "https://images-na.ssl-images-amazon.com/images/I/41FSMUfjPYL._SX279_BO1,204,203,200_.jpg",
-          "dateAdded": "03-12-2020"
+          "dateAdded": "03-12-2020",
+          "public": false
         }
       ],
       "area": "NYC"
@@ -83,7 +86,8 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
           "starReview": 4,
           "review": "it's sodium cute",
-          "dateAdded": "07-02-2010"
+          "dateAdded": "07-02-2010",
+          "public": true
         },
         {
           "id": 2,
@@ -93,7 +97,8 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
           "starReview": 3,
           "review": "That's nice, dear",
-          "dateAdded": "01-01-2006"
+          "dateAdded": "01-01-2006",
+          "public": true
         },
         {
           "id": 3,
@@ -103,7 +108,8 @@
           "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Very Irrelephant",
-          "dateAdded": "10-17-1983"
+          "dateAdded": "10-17-1983",
+          "public" : true
         },
         {
           "id": 4,
@@ -113,7 +119,8 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
           "starReview": 3,
           "review": "sighs...",
-          "dateAdded": "03-13-2020"
+          "dateAdded": "03-13-2020",
+          "public": true
         },
         {
           "id": 5,
@@ -123,7 +130,8 @@
           "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 2,
           "review": "Florida Man is real",
-          "dateAdded": "09-16-2016"
+          "dateAdded": "09-16-2016",
+          "public": false
         },
         {
           "id": 6,
@@ -133,7 +141,8 @@
           "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Woof",
-          "dateAdded": "07-02-2020"
+          "dateAdded": "07-02-2020",
+          "public": true
         }
       ],
       "area": "Tallanasty"
@@ -154,7 +163,8 @@
           "authors": "Ashida kim",
           "publisher": "Citadel",
           "image": "https://images-na.ssl-images-amazon.com/images/I/41wYLKyzy-L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-          "dateAdded": "07-02-2021"
+          "dateAdded": "07-02-2021",
+          "public": true
         }
       ],
       "area": "Tallanasty"
@@ -183,6 +193,7 @@
     }
   ],
   "user": {
+    "id": 1,
     "name": "Jason Jaycesunderson",
     "location": {
       "zipcode": "32301",
@@ -196,7 +207,7 @@
         "authors": "Mark Kurlansky",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
-        "starReview": 4,
+        "starReview": "4",
         "review": "it's sodium cute"
       },
       {
@@ -205,7 +216,7 @@
         "authors": "Betty White",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "That's nice, dear"
       },
       {
@@ -214,7 +225,7 @@
         "authors": "Jean De Brunhoff",
         "publisher": "Random House Books for Young Readers",
         "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Very Irrelephant"
       },
       {
@@ -223,7 +234,7 @@
         "authors": "Paulette Bourgeois ",
         "publisher": "Kids Can Press",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "sighs..."
       },
       {
@@ -232,7 +243,7 @@
         "authors": "Lauren Groff",
         "publisher": "Riberhead Books",
         "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 2,
+        "starReview": "2",
         "review": "Florida Man is real"
       },
       {
@@ -241,7 +252,7 @@
         "authors": "Chad Orzel",
         "publisher": "Scribner",
         "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Woof"
       }
     ],

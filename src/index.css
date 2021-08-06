@@ -135,6 +135,11 @@ div.column-left {
 }
 
 
+.column-center{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
 .header {
   display: flex;
   /* margin-bottom: 100px; */

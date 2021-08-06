@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function BooksAside({ userData }) {
  const bookArray = userData.booksInfo;
-  const [formData, setFormData] = useState(bookArray);
+  const [booksData, setBooksData] = useState(bookArray);
 
   // console.log(bookArray)
 
@@ -24,7 +24,7 @@ function BooksAside({ userData }) {
   function handleSearch(e) {
     setSearching(e.target.value);
   }
-  let searchedData = formData.filter(
+  let searchedData = booksData.filter(
     (item) =>
       item.title.toLowerCase().includes(search.toLowerCase()) ||
       item.authors.toLowerCase().includes(search.toLowerCase())
@@ -60,10 +60,18 @@ function BooksAside({ userData }) {
   function submitForm(e) {
     e.preventDefault();
     console.log("Hi from submitForm");
-    //setSomething([user])
-    setFormData([userInput, ...formData]);
+    setBooksData([userInput, ...booksData])
 
-
+    fetch("http://localhost:3001/user", {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        booksInfo: [userInput, ...booksData]
+    })})
+      .then(r=> r.json())
+      .then(()=>setShowForm(false))
     
   }
 

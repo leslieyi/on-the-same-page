@@ -22,7 +22,7 @@ function Profiles({ profileData }) {
       ))}
 
       <Route path={`${match.url}/:profileId`}>
-        <ProfileShow profileData={profileData} />
+        <ProfileShow profileData={profileData} key={Math.random()} />
       </Route>
 
     </div>
