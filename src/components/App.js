@@ -44,7 +44,7 @@ function App() {
         </Route>
 
         <Route path="/clubs">
-          <ClubsPage clubsData={clubsData} setClubsData={setClubsData} />
+          <ClubsPage clubsData={clubsData} setClubsData={setClubsData} profileData={profileData} />
         </Route>
       </Switch>
     </div>

@@ -3,16 +3,15 @@ import { useState } from 'react'
 import CardMemberButton from './CardMemberButton'
 
 
-const ClubFormCard = ({ clubsData, setClubsData }) => {
+const ClubFormCard = ({ clubsData, setClubsData, profileData }) => {
 	const [formData, setFormData] = useState({
         name: "",
         location: ""
     })
 	const [formMembers, setFormMembers] = useState(['Jason Jaycesunderson'])
 
-	//allUsers is hard-coded for now because we won't be adding new users in this project, so we don't need it to be dynamic at the moment. Once we learn React, though, and know how to work with an actual backend, this data would come from our actual user list dynamically. 
-	const allUsers = [{name: 'Alec Magnet', id: '1'}, {name: 'Mari Taksa', id: '2'}, {name: 'Yearim Yi', id: '3'}]
-	
+	const allUsers = profileData.filter((profile) => profile.name !== 'Jason Jaycesunderson')
+
 	const userButtons = allUsers.map((user) => <CardMemberButton 
 		name={user.name} 
 		key={user.id} 

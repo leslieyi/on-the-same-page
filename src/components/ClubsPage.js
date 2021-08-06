@@ -6,7 +6,7 @@ import ClubFormCard from './ClubFormCard'
 import ClubShow from './ClubShow'
 // LINE ONE:   , useParams, useLocation
 
-function ClubsPage({ clubsData, setClubsData }){
+function ClubsPage({ clubsData, setClubsData, profileData }){
     const match = useRouteMatch();
     // let { clubID } = useParams()
     // const location = useLocation
@@ -33,7 +33,7 @@ function ClubsPage({ clubsData, setClubsData }){
                     </Card.Group>
                     <h1><span style={{backgroundColor: "#ffd899", padding:"5px"}}>My Clubs</span></h1>
                     <Card.Group style={{justifyContent: "center"}}>
-                        <ClubFormCard clubsData={clubsData} setClubsData={setClubsData} />
+                        <ClubFormCard clubsData={clubsData} setClubsData={setClubsData} profileData={profileData} />
                         {myClubCardsRender}
                     </Card.Group>
                 </div>
