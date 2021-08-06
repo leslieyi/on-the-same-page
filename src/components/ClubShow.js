@@ -17,7 +17,7 @@ const ClubShow = ({ clubsData }) => {
 		history.goBack()
 	}
 	
-	console.log("hi from ClubShow", clubsData, "params", params, params.ID, "club", club, "history", history)
+	console.log("hi from ClubShow", clubsData, "params", params, params.ID, "club", club, "history", history, "is this working?")
 
 	return club ? (
 		<div className="ui centered card" style={{alignContent: "center"}} >
