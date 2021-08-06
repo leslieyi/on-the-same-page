@@ -5,18 +5,18 @@
       "name": "Alec Magnet",
       "profileImage": "https://images.unsplash.com/photo-1617130094141-532436117aa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
       "joinDate": "08-02-2021",
-      "location":{
+      "location": {
         "zipcode": "11201",
-        "public":true
+        "public": true
       },
-      "favoriteGenre": "historical fiction",
+      "favoriteGenre": "fantasy",
       "booksInfo": [
         {
-          "title": "The Google story",
-          "authors": "David A. Vise",
-          "publisher": "Random House Digital, Inc.",
-          "image": "url",
-          "dateAdded":"08-02-2021",
+          "title": "Good Omens",
+          "authors": "Terry Pratchett, Neil Gaiman",
+          "publisher": "Workman",
+          "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Goodomenscover.jpg",
+          "dateAdded": "08-02-2021",
           "public": true
         }
       ],
@@ -27,18 +27,18 @@
       "name": "Mari Taksa",
       "profileImage": "https://images.unsplash.com/photo-1615139679227-446ab0cfe88d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       "joinDate": "08-02-2020",
-      "location":{
+      "location": {
         "zipcode": "77007",
-        "public":false
+        "public": false
       },
-      "favoriteGenre": "fiction",
+      "favoriteGenre": "historical fiction",
       "booksInfo": [
         {
-          "title": "The Google story",
-          "authors": "David A. Vise",
-          "publisher": "Random House Digital, Inc.",
-          "image": "url",
-          "dateAdded":"07-02-2021",
+          "title": "The Zen of Farting",
+          "authors": "Carl Japikse",
+          "publisher": "Frog Books",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/513b-gd5mYL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+          "dateAdded": "07-02-2021",
           "public": true
         }
       ],
@@ -49,18 +49,18 @@
       "name": "Yearim Yi",
       "profileImage": "https://images.unsplash.com/photo-1585109649139-366815a0d713?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
       "joinDate": "08-02-1999",
-      "location":{
+      "location": {
         "zipcode": "10004",
-        "public":true
+        "public": true
       },
-      "favoriteGenre": "fiction",
+      "favoriteGenre": "non-fiction",
       "booksInfo": [
         {
-          "title": "The Google story",
-          "authors": "David A. Vise",
-          "publisher": "Random House Digital, Inc.",
-          "image": "url",
-          "dateAdded":"03-02-2020",
+          "title": "English as a Second F*cking Language: How to Swear Effectively, Explained in Detail with Numerous Examples Taken From Everyday Life",
+          "authors": "Sterling Johnson",
+          "publisher": "St. Martin's Griffin",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/41FSMUfjPYL._SX279_BO1,204,203,200_.jpg",
+          "dateAdded": "03-12-2020",
           "public": false
         }
       ],
@@ -70,9 +70,9 @@
       "id": 4,
       "name": "Jason Jaycesunderson",
       "profileImage": "https://images.unsplash.com/photo-1533384159656-84b8ae5ce5e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
-      "location":{
+      "location": {
         "zipcode": "32303",
-        "public":true
+        "public": true
       },
       "joinDate": "08-02-1982",
       "public": true,
@@ -86,7 +86,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
           "starReview": 4,
           "review": "it's sodium cute",
-          "dateAdded":"07-02-2010",
+          "dateAdded": "07-02-2010",
           "public": true
         },
         {
@@ -97,7 +97,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
           "starReview": 3,
           "review": "That's nice, dear",
-          "dateAdded":"01-01-2006",
+          "dateAdded": "01-01-2006",
           "public": true
         },
         {
@@ -108,8 +108,8 @@
           "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Very Irrelephant",
-          "dateAdded":"10-17-1983",
-          "public": true
+          "dateAdded": "10-17-1983",
+          "public" : true
         },
         {
           "id": 4,
@@ -119,7 +119,7 @@
           "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
           "starReview": 3,
           "review": "sighs...",
-          "dateAdded":"03-13-2020",
+          "dateAdded": "03-13-2020",
           "public": true
         },
         {
@@ -130,7 +130,7 @@
           "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 2,
           "review": "Florida Man is real",
-          "dateAdded":"09-16-2016",
+          "dateAdded": "09-16-2016",
           "public": false
         },
         {
@@ -141,7 +141,7 @@
           "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
           "starReview": 5,
           "review": "Woof",
-          "dateAdded":"07-02-2020",
+          "dateAdded": "07-02-2020",
           "public": true
         }
       ],
@@ -150,33 +150,54 @@
     {
       "id": 5,
       "name": "Adam LaRosa",
-      "profileImage":"https://images.unsplash.com/photo-1580391564629-d95e06fc9699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1580391564629-d95e06fc9699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
       "joinDate": "08-02-2000",
-      "location":{
+      "location": {
         "zipcode": "32301",
-        "public":true
+        "public": true
       },
-      "favoriteGenre": "fiction",
+      "favoriteGenre": "non-fiction",
       "booksInfo": [
         {
-          "title": "The Google story",
-          "authors": "David A. Vise",
-          "publisher": "Random House Digital, Inc.",
-          "image": "url",
-          "dateAdded":"07-02-2021",
+          "title": "Ninja Mind Control",
+          "authors": "Ashida kim",
+          "publisher": "Citadel",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/41wYLKyzy-L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+          "dateAdded": "07-02-2021",
           "public": true
         }
       ],
       "area": "Tallanasty"
+    },
+    {
+      "id": 6,
+      "name": "Andy Aguilar",
+      "profileImage": "https://images.unsplash.com/photo-1570700326774-ccc863636d6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+      "joinDate": "04-02-2002",
+      "location": {
+        "zipcode": "20001",
+        "public": false
+      },
+      "favoriteGenre": "dystopian",
+      "booksInfo": [
+        {
+          "title": "Nineteen Eighty-Four",
+          "authors": "George Orwell",
+          "publisher": "Secker & Warburg",
+          "image": "https://m.media-amazon.com/images/I/51HKO6C5A5L.jpg",
+          "dateAdded": "08-05-2021",
+          "public": true
+        }
+      ],
+      "area": "DC"
     }
   ],
-  
   "user": {
-  
+    "id": 1,
     "name": "Jason Jaycesunderson",
-    "location":{
+    "location": {
       "zipcode": "32301",
-      "public":true
+      "public": true
     },
     "favoriteGenre": "historical fiction",
     "booksInfo": [
@@ -186,7 +207,7 @@
         "authors": "Mark Kurlansky",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/719jY1AQaJL.jpg",
-        "starReview": 4,
+        "starReview": "4",
         "review": "it's sodium cute"
       },
       {
@@ -195,7 +216,7 @@
         "authors": "Betty White",
         "publisher": "Penguin Publishing Group",
         "image": "https://images-na.ssl-images-amazon.com/images/I/51GWzBRf93L.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "That's nice, dear"
       },
       {
@@ -204,7 +225,7 @@
         "authors": "Jean De Brunhoff",
         "publisher": "Random House Books for Young Readers",
         "image": "https://m.media-amazon.com/images/P/0394805801.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Very Irrelephant"
       },
       {
@@ -213,7 +234,7 @@
         "authors": "Paulette Bourgeois ",
         "publisher": "Kids Can Press",
         "image": "https://images-na.ssl-images-amazon.com/images/I/61hp7pBp8PL._SX440_BO1,204,203,200_.jpg",
-        "starReview": 3,
+        "starReview": "3",
         "review": "sighs..."
       },
       {
@@ -222,7 +243,7 @@
         "authors": "Lauren Groff",
         "publisher": "Riberhead Books",
         "image": "https://m.media-amazon.com/images/P/1594634513.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 2,
+        "starReview": "2",
         "review": "Florida Man is real"
       },
       {
@@ -231,13 +252,12 @@
         "authors": "Chad Orzel",
         "publisher": "Scribner",
         "image": "https://m.media-amazon.com/images/P/1416572295.01._SCLZZZZZZZ_SX500_.jpg",
-        "starReview": 5,
+        "starReview": "5",
         "review": "Woof"
       }
     ],
     "area": "Tallanasty"
   },
-  
   "bookClubs": [
     {
       "name": "Tequila Mockingbird",
@@ -251,12 +271,12 @@
       "comments": [
         {
           "poster": "Yearim Yi",
-          "time": "2015-03-25T12:00:00Z",
+          "time": "1628007243",
           "text": "Pouring one out for Tom"
         },
         {
           "poster": "Jason Jaycesunderson",
-          "time": "2015-03-27T12:00:00Z",
+          "time": "1628175812",
           "text": "Atticus is bae"
         }
       ]
@@ -274,12 +294,12 @@
       "comments": [
         {
           "poster": "Mari Taksa",
-          "time": "2016-03-22T12:00:00Z",
+          "time": "1628007243",
           "text": "Anyone up for some paranormal romance?"
         },
         {
           "poster": "Alec Magnet",
-          "time": "2016-03-23T12:00:00Z",
+          "time": "1628175812",
           "text": "How bout Anne Rice's Sleeping Beauty books?"
         }
       ]
@@ -287,7 +307,7 @@
     {
       "name": "Books, the Universe, and Everything",
       "id": 3,
-      "location": "10025",
+      "location": "10004",
       "members": [
         "Jason Jaycesunderson",
         "Yearim Yi",
@@ -296,8 +316,71 @@
       "comments": [
         {
           "poster": "Jason Jaycesunderson",
-          "time": "2016-03-22T12:00:00Z",
+          "time": "1628007243",
           "text": "42"
+        }
+      ]
+    },
+    {
+      "name": "Fictional Feminists",
+      "id": 4,
+      "location": "online",
+      "members": [
+        "Mari Taksa",
+        "Yearim Yi"
+      ],
+      "comments": [
+        {
+          "poster": "Yearim Yi",
+          "time": "1628172112",
+          "text": "Jane Eyre or Elizabeth Bennet?"
+        },
+        {
+          "poster": "Mari Taksa",
+          "time": "1628175812",
+          "text": "Katniss Everdeen"
+        }
+      ]
+    },
+    {
+      "name": "Waiting for Merlot",
+      "id": 5,
+      "location": "10004",
+      "members": [
+        "Yearim Yi",
+        "Alec Magnet"
+      ],
+      "comments": [
+        {
+          "poster": "Yearim Yi",
+          "time": "1628007243",
+          "text": "The wine last time smelled like feet"
+        },
+        {
+          "poster": "Alec Magnet",
+          "time": "1628175812",
+          "text": "The time before, it smelled like breath"
+        }
+      ]
+    },
+    {
+      "name": "Yet Another Book Club",
+      "id": 6,
+      "location": "online",
+      "members": [
+        "Mari Taksa",
+        "Alec Magnet"
+      ],
+      "comments": [
+        {
+          "poster": "Alec Magnet",
+          "time": "1628007243",
+          "text": "More books!!"
+        },
+        {
+          "poster": "Mari Taka",
+          "time": "1628175812",
+          "text": "MOAR BOOX !!!"
         }
       ]
     }
