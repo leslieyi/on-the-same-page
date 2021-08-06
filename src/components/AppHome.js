@@ -23,7 +23,7 @@ function AppHome({ profileData, clubsData }) {
       <BooksAside userData={userData}/>
       }
       {profileData.length === 0 ? null : (
-        <MainContainer setProfileData={setProfileData} profileData={profileData} />
+        <MainContainer profileData={profileData} />
       )}
       <BookClubAside clubsData={clubsData} />
     </div>
