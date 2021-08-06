@@ -9,18 +9,16 @@ function ProfileShow({ profileData }) {
   // call useParams to access the `params` from the url:
   // the dynamic portion of our /profiles/:profileId path
 
-  const profile = profileData.find((item) => item.id == params.profileId);
+  const profile = profileData.find((item) => item.id === parseInt(params.profileId));
   // In the initial state, profileData is an empty array and profile is null
   // as a result. Only after fetch, do we get data in profileData.
 
 
   return profile ? (
     <Card.Group style={{ justifyContent: "center" }}>
-      <Card
+      <Card className="card-style"
         style={{
-          backgroundColor: "	rgb(64,64,64)",
-          // backgroundImage: `url(https://images.unsplash.com/photo-1535905496755-26ae35d0ae54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)`,
-          // backgroundSize: "cover",
+          backgroundColor:" rgba(0, 0, 0, 0.85)"
         }}
       >
         <Image
@@ -33,22 +31,31 @@ function ProfileShow({ profileData }) {
           <span className="span-titles">Favorite Genre:</span>{" "}
           {profile.favoriteGenre}
           <Card.Description style={{ color: "white" }}>
-            <span className="span-titles">Area:</span> <p>{profile.area}
-              </p>
+            <span className="span-titles">Area:</span> {profile.area}
             <br />
             <span className="span-titles">Zipcode:</span>{" "}
-            <p>
             {profile.location.public
               ? profile.location.zipcode
               : "❗Sorry, This Info ain't Public❗"}
               
-            </p>
+          
           </Card.Description>
         </Card.Content>
-        <Card.Content extra style={{ color: "white" }}>
-          <span className="span-titles">Saved Books:</span>
+        <Card.Content extra style={{ color: "white", lineHeight:"1.5" }}>
+          <hr/>
+          <span className="span-titles">Saved Books:</span><br/>
           {profile.booksInfo.map((book) => (
-            <li>{book.title}</li>
+            <>
+      
+            <span className="span-titles">Title: </span> {book.title} <br/>
+            <span className="span-titles">Authors: </span> {book.authors} <br/>
+            <span className="span-titles">Publisher: </span> {book.publisher} <br/>
+            <a href={book.image}>
+            <img alt="book" style={{height: "60px", width: "50px",}} src={book.image}/>
+            </a>
+            <Card.Meta style={{ color: "white", fontSize:"10px"}}><span className="span-titles">Date Added:</span> {book.dateAdded}</Card.Meta>
+            <hr/>
+            </>
           ))}
           <br />
         </Card.Content>
