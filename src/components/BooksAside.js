@@ -62,8 +62,6 @@ function BooksAside({ userData }) {
     console.log("Hi from submitForm");
     setBooksData([userInput, ...booksData])
 
-
-
     fetch("http://localhost:3001/user", {
       method: "PATCH",
       headers: {
